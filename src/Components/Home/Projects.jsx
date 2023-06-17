@@ -11,6 +11,7 @@ import student from '../../assets/skill_icon/student.png'
 const Projects = () => {
     return (
         <div>
+            <h1 className='text-center text-2xl font-bold pt-10'>My Projects_</h1>
             {/* projects-1 */}
             <div className=' shadow-md hover:shadow-xl hover:shadow-yellow-600  md:mx-72 my-20' data-aos="fade-right" data-aos-duration="3000">
                 <h1 className='text-center  text-lg font-semibold my-4'>Project Name: 
