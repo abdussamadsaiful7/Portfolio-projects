@@ -59,9 +59,9 @@ const Projects = () => {
                     <img className='absolute hidden lg:block bottom-0 md:right-0 w-72 h-72' src={student} alt="" />
                 </div>
                 <div className='flex items-center justify-end space-x-4 p-6'>
-                    <Link to='' target="_blank"><button className='btn btn-xs btn-outline btn-warning'>github</button></Link>
+                    <Link to='https://github.com/abdussamadsaiful7/Polyglot-Academy-client' target="_blank"><button className='btn btn-xs btn-outline btn-warning'>github</button></Link>
 
-                    <Link to='' target="_blank"><button className='btn btn-xs btn-outline btn-warning'> Server</button></Link>
+                    <Link to='https://github.com/abdussamadsaiful7/Polyglot-Academy-server' target="_blank"><button className='btn btn-xs btn-outline btn-warning'> Server</button></Link>
 
                     <Link to='https://polyglot-academy.web.app/' target="_blank">
                         <button className='btn btn-xs btn-outline btn-warning'>Live</button></Link>

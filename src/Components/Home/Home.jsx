@@ -14,7 +14,7 @@ const Home = () => {
                         <h1 className='text-2xl  font-semibold'>ABDUS SAMAD SAIFUL</h1>
                         <p className='text-lg  font-semibold'>Web developer</p>
                         <p className='text-gray-500'>I have completed Masters degree in Economics of Bangladesh National University. Realizing the influence of modernity, I became interested in Web developer. I believe that everyone has the appreciation of a skilled developer, keeping this slogan in front of me, I started study about Web development. And I apply for a job  to prove my success.
-                            I have been working one year in React.js developing as MERN full stack developer and believe that I possess all the necessary technical skills to join the team and contribute significantly  of a Front-End Developer. I have received recognition throughout my career as a professional who is focused and skilled at creating innovative applications with modern technologies.</p>
+                            I have been working one year in React.js developing as MERN full stack developer and believe that I possess all the necessary technical skills to join the team and contribute significantly  of a web Developer. I have received recognition throughout my career as a professional who is focused and skilled at creating innovative applications with modern technologies.</p>
                     </div>
                     <div className='relative'>
                         <img className='w-72 h-72' src={frame} alt="icon" />
