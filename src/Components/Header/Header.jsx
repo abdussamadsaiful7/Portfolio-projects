@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import icon from '../../assets/icon2.png'
+import Typewriter from 'typewriter-effect';
+
 
 const Header = () => {
     return (
@@ -18,9 +20,19 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="flex items-center">
-                        <img  src={icon} alt="Logo" className="w-12 h-12 mr-4" />
-                        <br/>
-                        <h1 className="text-black font-bold text-lg">Saiful's portfolio</h1>
+                        <img src={icon} alt="Logo" className="w-12 h-12 mr-4" />
+                        <br />
+                        <div>
+                            <Typewriter
+                                options={{
+                                    strings: ["Saiful's portfolio"],
+                                    autoStart: true,
+                                    loop: true,
+                                }}
+                            />
+                            {/* <h1 className="text-black font-bold text-lg">Saiful's portfolio</h1> */}
+
+                        </div>
                     </div>
                     <nav className="flex items-center space-x-4">
                         <Link to='/' className="hidden md:inline-block text-gray-500 hover:text-white hover:bg-black p-3">Home</Link>

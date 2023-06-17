@@ -6,6 +6,10 @@ import { Slide } from "react-awesome-reveal";
 import Projects from './Projects';
 import { Link } from 'react-router-dom';
 import { FaArrowDown, FaFacebookF, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import hero from '../../assets/hero.png'
+
+
+
 
 
 const pdf_file_url = 'https://drive.google.com/file/d/1_nJswwsB37486hAvk_SaIv5DyH1sj8Nb/view?usp=drive_link'
@@ -55,7 +59,7 @@ const Home = () => {
                             </Link>
                             <Link to='https://github.com/abdussamadsaiful7' target="_blank">
                                 <button className="btn btn-circle btn-warning btn-outline">
-                                    <span className='text-2xl'> <FaGithub/></span>
+                                    <span className='text-2xl'> <FaGithub /></span>
                                 </button>
                             </Link>
                         </div>
@@ -72,17 +76,21 @@ const Home = () => {
                             <img className='w-72 h-72' src={frame} alt="icon" />
                             <img className='w-64 h-64 absolute right-14 md:right-4 rounded-full bottom-8' src={samad} alt="icon" />
                         </div>
-                        {/* <div className='text-center pt-2'>
-                            <Link>
-                                <button onClick={() => downloadFile(pdf_file_url)} className='btn btn-warning btn-outline'>Download CV
-                                    <FaArrowDown />
-                                </button>
-                            </Link>
-                        </div> */}
                     </div>
                 </div>
             </Slide>
             <Skills></Skills>
+            <div className='md:mx-20'>
+                <h1 className='text-center text-xl font-semibold'>Professional Web development Course </h1>
+                <div className='md: flex items-center justify-between shadow-md hover:shadow-xl p-8 hover:border hover:border-yellow-400 mt-4 md:px-20' data-aos="fade-up" data-aos-duration="3000">
+                    <img className='w-32 h-32' src={hero} alt="icon" />
+                    <div>
+                        <p className='text-lg font-semibold'>Course: Programming Hero (online)</p>
+                        <p>Level-4, 34, Awal Centre, Banani, Dhaka</p>
+                        <p>Bangladesh</p>
+                    </div>
+                </div>
+            </div>
             <Projects></Projects>
         </div>
     );
