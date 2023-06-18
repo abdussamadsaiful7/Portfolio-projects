@@ -4,6 +4,7 @@ import { Slide } from "react-awesome-reveal";
 import { FaArrowDown, FaFacebookF, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import frame from '../../assets/imgIcon.png'
 import samad from '../../assets/samad.png'
+import { Typewriter } from 'react-simple-typewriter'
 
 
 
@@ -32,7 +33,24 @@ const Banner = () => {
                     <div className='md:w-1/2 md:ml-10 p-4'>
                         <div>
                             <h1 className='text-2xl  font-semibold'>ABDUS SAMAD SAIFUL</h1>
-                            <p className='text-lg  font-semibold'>Web developer</p>
+                            {/* <p className='text-lg  font-semibold'>Web developer</p> */}
+
+                            <h1 style={{ fontWeight: 'normal' }}>
+                                I'm a &lt;{' '}
+                                <span style={{ color: 'green', fontWeight: 'bold' }}>
+                                    {/* Style will be inherited from the parent element */}
+                                    <Typewriter
+                                        words={['Web developer','React developer', 'MERN stack developer']}
+                                        loop={5}
+                                        cursor
+                                        cursorStyle='>'
+                                        typeSpeed={70}
+                                        deleteSpeed={50}
+                                        delaySpeed={1000}
+                                    />
+                                </span>
+                            </h1>
+
                             <p className='text-gray-500'>
                                 I have been working one year in React.js developing as MERN full stack developer and believe that I possess all the necessary technical skills to join the team and contribute significantly  of a web Developer. I have received recognition throughout my career as a professional who is focused and skilled at creating innovative applications with modern technologies.</p>
                         </div>
