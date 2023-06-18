@@ -19,7 +19,7 @@ const About = () => {
             </div>
             <div className='my-10'>
                 <h1 className='text-center text-xl font-semibold'>Educational Qualifications_</h1>
-                <div className='md: flex items-center justify-between mt-4 shadow-md hover:shadow-xl p-8 hover:border hover:border-yellow-400' data-aos="fade-up"
+                <div className='md:flex items-center justify-between mt-4 shadow-md hover:shadow-xl p-8 hover:border hover:border-yellow-400' data-aos="fade-up"
                     data-aos-duration="3000">
                     <div>
                         <div className='mb-4'>
@@ -44,6 +44,7 @@ const About = () => {
                     <img className='w-32 h-32' src={hero} alt="icon" />
                     <div>
                         <p className='text-lg font-semibold'>Course: Programming Hero (online)</p>
+                        <p>Year: 2023</p>
                         <p>Level-4, 34, Awal Centre, Banani, Dhaka</p>
                         <p>Bangladesh</p>
                     </div>

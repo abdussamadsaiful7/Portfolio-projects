@@ -19,7 +19,7 @@ const Contact = () => {
     };
     return (
         <div className='md:mx-20 p-10 shadow-lg bg-slate-400 my-10'>
-            <h1 className='text-center text-xl font-semibold mb-4 text-white'>Contact Form</h1>
+            <h1 className='text-center text-xl font-semibold mb-4 text-white uppercase'>Contact Form</h1>
             <div className='md:flex items-center gap-10 shadow-lg bg-white p-10'>
                 <div>
                     <div className='flex items-center'>
@@ -39,13 +39,13 @@ const Contact = () => {
                         <div className='mt-2'>
                             <label>Email</label>
                             <br />
-                            <input type="text" name="user_email" placeholder="Type here" className="input input-bordered input-warning w-full" />
+                            <input type="email" name="user_email" placeholder="Type here" className="input input-bordered input-warning w-full" />
                         </div>
 
                         <div className='mt-2'>
                             <label>Message</label>
                             <br />
-                            <textarea className="textarea textarea-warning w-full" name="message" placeholder="Bio"></textarea>
+                            <textarea className="textarea textarea-warning w-full" name="message" placeholder="Message"></textarea>
                         </div>
                         <br />
                         <div className='text-center'>
