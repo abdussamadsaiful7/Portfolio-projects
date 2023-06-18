@@ -49,7 +49,7 @@ const Contact = () => {
                         </div>
                         <br />
                         <div className='text-center'>
-                            <input className='btn btn-wide btn-warning btn-outline' type="submit" value="Send" />
+                            <input className='btn btn-wide text-white bg-violet-800 btn-outline' type="submit" value="Send" />
                         </div>
                     </form>
                 </div>

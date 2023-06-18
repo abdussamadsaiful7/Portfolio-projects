@@ -48,7 +48,7 @@ const Login = () => {
                             <input type="password" placeholder="password"  {...register("password", { required: true })} className="input input-bordered" />
                         </div>
                         <div className="form-control mt-6">
-                            <input className="btn btn-primary" type="submit" value="Login" />
+                            <input className="btn bg-cyan-800 text-white" type="submit" value="Login" />
                         </div>
                     </form>
                     <p className='pl-4 pb-4'>Don't have an account ?

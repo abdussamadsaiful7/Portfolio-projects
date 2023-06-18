@@ -60,7 +60,7 @@ const SignUp = () => {
                         </div>
                         <div className='pt-4'>
                             <input type="submit" value="Sign Up" className=' btn btn-block 
-                            btn-warning btn-outline' />
+                            bg-cyan-800 text-white btn-outline'/>
                         </div>
                     </form>
                     <p className='text-center my-4'>Already have an account? <Link to='/login' className='text-red-500 

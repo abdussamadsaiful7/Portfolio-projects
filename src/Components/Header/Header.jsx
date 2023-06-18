@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import icon from '../../assets/icon2.png'
+import icon from '../../assets/icon.jpg'
 import Typewriter from 'typewriter-effect';
 import { AuthContext } from '../Provider/AuthProvider';
 
