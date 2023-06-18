@@ -5,19 +5,13 @@
 
 
 .bannerPic{
-    background-image: url("./assets/skill_icon/banner11.jpg");
+    background-image: url("./assets/skill_icon/banner1.avif");
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    
 }
-.navPic{
-    background-image: url("./assets/skill_icon/banner11.jpg");
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size:auto;
-   
-}
+
 
 .navbar {
     overflow: hidden;
