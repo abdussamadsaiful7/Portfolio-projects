@@ -4,7 +4,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../Provider/AuthProvider';
 import GoogleLogin from '../GoogleLogin/GoogleLogin';
 import Lottie from "lottie-react";
-import lottieLogo from "../../assets/loin.json";
+import lottieLogo from "../../assets/n3.json";
 
 const Login = () => {
 
