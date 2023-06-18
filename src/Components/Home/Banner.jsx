@@ -27,7 +27,7 @@ const Banner = () => {
 
 
     return (
-        <div className='bannerPic'>
+        <div className='bannerPic lg:h-[100vh]'>
             <Slide>
                 <div className='md:flex items-center justify-between space-x-5 pt-14 md:px-24'>
                     <div className='md:w-1/2 md:ml-10 p-4'>
