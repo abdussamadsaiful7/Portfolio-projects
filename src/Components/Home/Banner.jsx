@@ -2,9 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Slide } from "react-awesome-reveal";
 import { FaArrowDown, FaFacebookF, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import frame from '../../assets/imgIcon.png'
+//import frame from '../../assets/imgIcon.png'
 import samad from '../../assets/samad.png'
 import { Typewriter } from 'react-simple-typewriter'
+import './Banner.css';
 
 
 
@@ -27,9 +28,10 @@ const Banner = () => {
 
 
     return (
-        <div className='bannerPic lg:h-[100vh]'>
-            <Slide>
+        <div className='bannerPic lg:h-[100vh] relative'>
+            <Slide cascade>
                 <div className='md:flex items-center justify-between space-x-5 pt-14 md:px-24'>
+
                     <div className='md:w-1/2 md:ml-10 p-4'>
                         <div>
                             <h1 className='text-2xl  font-semibold'>ABDUS SAMAD SAIFUL</h1>
@@ -40,7 +42,7 @@ const Banner = () => {
                                 <span style={{ color: 'green', fontWeight: 'bold' }}>
                                     {/* Style will be inherited from the parent element */}
                                     <Typewriter
-                                        words={['Web developer','React developer', 'MERN stack developer']}
+                                        words={['Web developer', 'React developer', 'MERN stack developer']}
                                         loop={5}
                                         cursor
                                         cursorStyle='>'
@@ -89,10 +91,18 @@ const Banner = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className=''>
-                        <div className='relative'>
+
+                    {/* <div className=''>
+                        <div className='relative' data-aos="fade-right" data-aos-duration="3000">
                             <img className='w-72 h-72 hidden lg:block' src={frame} alt="icon" />
                             <img className='w-64 h-64 md:absolute right-14 md:right-4 rounded-full bottom-8' src={samad} alt="icon" />
+                        </div>
+                    </div> */}
+                    <div className='box'>
+                        <div className='bg-pic bg-black'>
+                            <img src={samad} alt="" />
+                            <h4 className=' text-white font-bold'>A Samad Saiful <br /> <span>Web Developer</span> </h4>
+                            <Link to='/contact'> <a className='text-white bg-cyan-800 hover:shadow-md hover:shadow-yellow-600'>Hire Me</a></Link>
                         </div>
                     </div>
                 </div>
