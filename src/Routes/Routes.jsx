@@ -9,6 +9,7 @@ import About from "../Components/About/About";
 import Contact from "../Components/Contact/Contact";
 import Login from "../Components/logIn/Login";
 import SignUp from "../Components/SignUp/SignUp";
+import SkillsDetails from "../Components/Home/SkillsDetails";
 
 
 const router = createBrowserRouter([
@@ -20,9 +21,13 @@ const router = createBrowserRouter([
             path: '/',
             element: <Home></Home>
         },
+        // {
+        //     path: '/details',
+        //     element: <Details></Details>
+        // },
         {
-            path: '/details',
-            element: <Details></Details>
+            path: '/skillsDetails',
+            element: <SkillsDetails></SkillsDetails>
         },
         {
             path: '/about',

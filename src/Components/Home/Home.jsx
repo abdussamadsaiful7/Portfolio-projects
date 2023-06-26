@@ -8,6 +8,7 @@ import BannerCard from './Course/BannerCard';
 import ProjectOne from '../ProjectSection/ProjectOne';
 import ProjectTwo from '../ProjectSection/ProjectTwo';
 import ProjectThree from '../ProjectSection/ProjectThree';
+import Career from '../Career/Career';
 
 
 
@@ -18,6 +19,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
+            <Career></Career>
             <Skills></Skills>
             <BannerCard></BannerCard>
             <div className='pt-10'>

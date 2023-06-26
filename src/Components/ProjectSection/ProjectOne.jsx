@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 
 const ProjectOne = () => {
     return (
-        <div className='pb-10'>
+        <div className='pb-5'>
             <div className='relative'>
                 <div className=' shadow-md hover:shadow-xl hover:shadow-yellow-600  md:mx-36 my-20' data-aos="fade-right" data-aos-duration="3000">
                     <h1 className='text-center  text-lg font-semibold my-4'>Project Name:

@@ -45,7 +45,7 @@ const Skills = () => {
                         data-aos-duration="3000" data-tip="TailwindCSS"> <img className='w-28 h-28 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300' src={tailwind} alt="icon" /></div>
                 </div>
                 <div className='text-center mt-6'>
-                    <Link to='/details'><button className="btn btn-sm btn-outline btn-warning">Details</button></Link>
+                    <Link to='/skillsDetails'><button className="btn btn-sm btn-outline btn-warning">Details</button></Link>
                 </div>
             </div>
         </div>
