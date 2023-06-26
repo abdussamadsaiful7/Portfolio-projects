@@ -43,8 +43,8 @@
 }
 .bg-pic{
     position: absolute;
-    inset: 8px;
-    border: 6px solid #ffff;
+    inset: 10px;
+    border: none;
     z-index: 3;
     border-radius: 50%;
    overflow: hidden;

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Slide } from "react-awesome-reveal";
 import { FaArrowDown, FaFacebookF, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 //import frame from '../../assets/imgIcon.png'
-import samad from '../../assets/samad.png'
+import samad from '../../assets/samad1.png'
 import { Typewriter } from 'react-simple-typewriter'
 import './Banner.css';
 
