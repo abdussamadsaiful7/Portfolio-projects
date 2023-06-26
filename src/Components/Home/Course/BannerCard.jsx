@@ -6,7 +6,7 @@ import pic3 from '../../../assets/skill_icon/wsda.jpg'
 
 const BannerCard = () => {
     return (
-        <div className='dark:bg-cyan-900 pb-24 pt-10'>
+        <div className='dark:text-black pb-24 pt-10'>
             <h1 className='text-center text-2xl font-bold mb-5'>Courses_</h1>
             <div className=' md:px-14 grid md:grid-cols-3 gap-4 md:h-[200px]'>
                 <div className='BCard mt-5 mx-auto' >

@@ -7,12 +7,12 @@ import feedback from '../../assets/skill_icon/feedback1.jpg'
 
 const Career = () => {
     return (
-        <div className='dark:bg-cyan-900 dark:text-white pt-10'>
+        <div className='dark:bg-black dark:text-white pt-10'>
             <div className=' md:mx-14 py-10' data-aos="fade-right"
                 data-aos-duration="3000">
-                <div className='grid md:grid-cols-4 shadow-xl md:divide-x'>
-                    <div className='mx-auto p-10 hover:shadow-green-600 hover:shadow-md transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300'>
-                        <div className='flex'>
+                <div className='grid md:grid-cols-4 shadow-xl'>
+                    <div className=' border border-white shadow-xl mx-auto p-10 hover:shadow-green-600 hover:shadow-md transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300'>
+                        <div className=' flex'>
                             <img className='w-20 h-20 mr-2' src={exp} alt="icon" />
                             <div className='flex items-center'>
                                 <p className='text-3xl font-extrabold mr-1'>1+</p>
@@ -20,7 +20,7 @@ const Career = () => {
                         </div>
                         <p>Years experience</p>
                     </div>
-                    <div className='mx-auto hover:shadow-green-600 hover:shadow-md transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 p-10'>
+                    <div className=' border border-white mx-auto  shadow-xl hover:shadow-green-600 hover:shadow-md transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 p-10'>
                         <div className='flex'>
                             <img className='w-20 h-20 mr-2' src={cp} alt="icon" />
                             <div className='flex items-center'>
@@ -30,7 +30,7 @@ const Career = () => {
                         <p>Completed Projects</p>
                     </div>
 
-                    <div className='mx-auto hover:shadow-green-600 hover:shadow-md transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 p-10'>
+                    <div className=' border border-white mx-auto  shadow-xl hover:shadow-green-600 hover:shadow-md transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 p-10'>
                         <div className='flex'>
                             <img className='w-20 h-20 mr-2' src={work} alt="icon" />
                             <div className='flex items-center'>
@@ -42,7 +42,7 @@ const Career = () => {
 
 
 
-                    <div className='mx-auto hover:shadow-green-600 hover:shadow-md transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 p-10'>
+                    <div className=' border border-white mx-auto  shadow-xl hover:shadow-green-600 hover:shadow-md transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 p-10'>
                         <div className='flex'>
                             <img className='w-20 h-20 mr-2' src={feedback} alt="icon" />
                             <div className='flex items-center'>

@@ -18,9 +18,9 @@ const Contact = () => {
             });
     };
     return (
-        <div className='md:mx-20 p-10 shadow-lg bg-slate-400 my-10'>
+        <div className='md:px-20 p-10 shadow-lg bg-slate-400 py-10 dark:bg-black'>
             <h1 className='text-center text-xl font-semibold mb-4 text-white uppercase'>Contact Form</h1>
-            <div className='md:flex items-center gap-10 shadow-lg bg-white p-10'>
+            <div className='md:flex items-center gap-10 shadow-lg bg-white md:p-10 p-4 border border-white dark:bg-black'>
                 <div>
                     <div className='flex items-center'>
                         <img className='w-12 h-12 mr-2' src={email} alt="icon" />
@@ -29,7 +29,7 @@ const Contact = () => {
                             <p className='text-slate-400'>Leave your message and I'll get back to you shortly</p>
                         </div>
                     </div>
-                    <form ref={form} onSubmit={sendEmail}>
+                    <form className='pb-10 md:pb-0' ref={form} onSubmit={sendEmail}>
                         <div className='mt-2'>
                             <label>Name</label>
                             <br />
@@ -53,7 +53,7 @@ const Contact = () => {
                         </div>
                     </form>
                 </div>
-                <div className='bg-violet-800 p-10 md:w-1/2 text-white' data-aos="fade-left"
+                <div className='bg-violet-800 md:p-10 p-2 md:w-1/2 text-white' data-aos="fade-left"
                         data-aos-duration="3000">
                     <h1 className='my-4 text-center font-semibold text-xl'>Contact me</h1>
                     <div>

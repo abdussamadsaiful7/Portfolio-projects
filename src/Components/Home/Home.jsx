@@ -1,14 +1,12 @@
 import React from 'react';
 import Skills from './Skills';
-import Projects from './Projects';
-
-import hero from '../../assets/hero.png'
 import Banner from './Banner';
 import BannerCard from './Course/BannerCard';
 import ProjectOne from '../ProjectSection/ProjectOne';
 import ProjectTwo from '../ProjectSection/ProjectTwo';
 import ProjectThree from '../ProjectSection/ProjectThree';
 import Career from '../Career/Career';
+import Features from '../Featuses/Features';
 
 
 
@@ -17,7 +15,7 @@ const Home = () => {
 
 
     return (
-        <div>
+        <div className='dark:bg-black dark:text-white'>
             <Banner></Banner>
             <Career></Career>
             <Skills></Skills>
@@ -29,6 +27,7 @@ const Home = () => {
                 <ProjectOne></ProjectOne>
                 <ProjectTwo></ProjectTwo>
                 <ProjectThree></ProjectThree>
+                <Features></Features>
             </div>
         </div>
     );

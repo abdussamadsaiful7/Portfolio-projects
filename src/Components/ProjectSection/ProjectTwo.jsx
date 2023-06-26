@@ -17,7 +17,7 @@ const ProjectTwo = () => {
     return (
         <div className='pb-5'>
             <div className='relative'>
-                <div className=' shadow-md hover:shadow-xl hover:shadow-yellow-600  md:mx-36 my-20' data-aos="fade-right" data-aos-duration="3000">
+                <div className=' border border-white shadow-md hover:shadow-xl hover:shadow-yellow-600  md:mx-36 my-20' data-aos="fade-right" data-aos-duration="3000">
                     <h1 className='text-center  text-lg font-semibold my-4'>Project Name: <span className='text-slate-500'> PJ-MARSKS GALLERY</span>
                         <span className='text-slate-500'></span></h1>
                     <div className=' md:flex items-center justify-between'>
