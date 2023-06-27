@@ -42,7 +42,7 @@ const Banner = () => {
                                 <span style={{ color: 'green', fontWeight: 'bold' }}>
                                     {/* Style will be inherited from the parent element */}
                                     <Typewriter
-                                        words={['Web developer','Front-end Developer', 'React developer', 'MERN full stack developer']}
+                                        words={['Web developer', 'Front-end Developer', 'React developer', 'MERN full stack developer']}
                                         loop={true}
                                         cursor
                                         cursorStyle='>'
@@ -92,18 +92,15 @@ const Banner = () => {
                         </div>
                     </div>
 
-                    {/* <div className=''>
-                        <div className='relative' data-aos="fade-right" data-aos-duration="3000">
-                            <img className='w-72 h-72 hidden lg:block' src={frame} alt="icon" />
-                            <img className='w-64 h-64 md:absolute right-14 md:right-4 rounded-full bottom-8' src={samad} alt="icon" />
+                    <div>
+                        <div className='box shadow-lg hover:shadow-lg hover:shadow-yellow-600'>
+                            <div className='bg-pic bg-black border-none'>
+                                <img src={samad} alt="" />
+                                <h4 className=' text-white font-bold'>A Samad Saiful <br /> <span>Web Developer</span> </h4>
+                                <Link to='/contact'> <a className='text-white bg-cyan-800 hover:shadow-md hover:shadow-yellow-600'>Hire Me</a></Link>
+                            </div>
                         </div>
-                    </div> */}
-                    <div className='box shadow-lg hover:shadow-lg hover:shadow-yellow-600'>
-                        <div className='bg-pic bg-black border-none'>
-                            <img src={samad} alt="" />
-                            <h4 className=' text-white font-bold'>A Samad Saiful <br /> <span>Web Developer</span> </h4>
-                            <Link to='/contact'> <a className='text-white bg-cyan-800 hover:shadow-md hover:shadow-yellow-600'>Hire Me</a></Link>
-                        </div>
+                        
                     </div>
                 </div>
             </Slide>

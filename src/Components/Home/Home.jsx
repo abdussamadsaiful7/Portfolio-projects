@@ -7,6 +7,7 @@ import ProjectTwo from '../ProjectSection/ProjectTwo';
 import ProjectThree from '../ProjectSection/ProjectThree';
 import Career from '../Career/Career';
 import Features from '../Featuses/Features';
+import Clock from '../Clock/Clock';
 
 
 
