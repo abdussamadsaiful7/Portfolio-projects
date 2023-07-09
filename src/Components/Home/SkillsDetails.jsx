@@ -32,7 +32,7 @@ const SkillsDetails = () => {
             <h1 className='text-center font-bold text-3xl mb-4'>My Skills__</h1>
             <div className='grid md:grid-cols-2 gap-10'>
                 <Tilt options={defaultOptions}>
-                    <div className='flex border border-white items-center justify-center space-x-4 shadow-md hover:shadow-xl  hover:shadow-yellow-600 rounded-lg p-4'
+                    <div className='flex border border-white items-center justify-center space-x-4 shadow-md hover:shadow-xl  hover:shadow-blue-600 rounded-lg p-4'
                         data-aos="fade-right" data-aos-duration="3000">
                         <img className='w-32 h-32' src={react} alt="icon" />
                         <div>
@@ -43,7 +43,7 @@ const SkillsDetails = () => {
                 </Tilt>
 
                 <Tilt options={defaultOptions}>
-                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-yellow-600 rounded-lg p-4 '
+                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-blue-600 rounded-lg p-4 '
                         data-aos="fade-left" data-aos-duration="3000" >
                         <img className='w-32 h-32' src={node} alt="icon" />
                         <div>
@@ -55,7 +55,7 @@ const SkillsDetails = () => {
 
 
                 <Tilt options={defaultOptions}>
-                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-yellow-600 rounded-lg p-4 '
+                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-blue-600 rounded-lg p-4 '
                         data-aos="fade-right" data-aos-duration="3000" >
                         <img className='w-32 h-32' src={express} alt="icon" />
                         <div>
@@ -67,7 +67,7 @@ const SkillsDetails = () => {
 
 
                 <Tilt options={defaultOptions}>
-                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-yellow-600 rounded-lg p-4 '
+                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-blue-600 rounded-lg p-4 '
                         data-aos="fade-left" data-aos-duration="3000" >
                         <img className='w-32 h-32' src={mongodb} alt="icon" />
                         <div>
@@ -79,7 +79,7 @@ const SkillsDetails = () => {
 
 
                 <Tilt options={defaultOptions}>
-                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-yellow-600 rounded-lg p-4 '
+                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-blue-600 rounded-lg p-4 '
                         data-aos="fade-right" data-aos-duration="3000" >
                         <img className='w-32 h-32' src={html} alt="icon" />
                         <div>
@@ -91,7 +91,7 @@ const SkillsDetails = () => {
 
 
                 <Tilt options={defaultOptions}>
-                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-yellow-600 rounded-lg p-4 '
+                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-blue-600 rounded-lg p-4 '
                         data-aos="fade-left" data-aos-duration="3000" >
                         <img className='w-32 h-32' src={css} alt="icon" />
                         <div>
@@ -103,7 +103,7 @@ const SkillsDetails = () => {
 
 
                 <Tilt options={defaultOptions}>
-                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-yellow-600 rounded-lg p-4 '
+                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-blue-600 rounded-lg p-4 '
                         data-aos="fade-right" data-aos-duration="3000" >
                         <img className='w-32 h-32' src={tailwind} alt="icon" />
                         <div>
@@ -115,7 +115,7 @@ const SkillsDetails = () => {
 
 
                 <Tilt options={defaultOptions}>
-                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-yellow-600 rounded-lg p-4 '
+                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-blue-600 rounded-lg p-4 '
                         data-aos="fade-left" data-aos-duration="3000" >
                         <img className='w-32 h-32' src={bootstrap} alt="icon" />
                         <div>
@@ -127,7 +127,7 @@ const SkillsDetails = () => {
 
 
                 <Tilt options={defaultOptions}>
-                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-yellow-600 rounded-lg p-4 '
+                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-blue-600 rounded-lg p-4 '
                         data-aos="fade-right" data-aos-duration="3000" >
                         <img className='w-32 h-32' src={firebase} alt="icon" />
                         <div>
@@ -139,7 +139,7 @@ const SkillsDetails = () => {
 
 
                 <Tilt options={defaultOptions}>
-                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-yellow-600 rounded-lg p-4 '
+                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-blue-600 rounded-lg p-4 '
                         data-aos="fade-left" data-aos-duration="3000" >
                         <img className='w-32 h-32' src={vs} alt="icon" />
                         <div>
@@ -151,7 +151,7 @@ const SkillsDetails = () => {
 
 
                 <Tilt options={defaultOptions}>
-                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-yellow-600 rounded-lg p-4 '
+                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-blue-600 rounded-lg p-4 '
                         data-aos="fade-right" data-aos-duration="3000" >
                         <img className='w-32 h-32' src={figma} alt="icon" />
                         <div>
@@ -163,7 +163,7 @@ const SkillsDetails = () => {
 
 
                 <Tilt options={defaultOptions}>
-                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-yellow-600 rounded-lg p-4 '
+                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-blue-600 rounded-lg p-4 '
                         data-aos="fade-left" data-aos-duration="3000" >
                         <img className='w-32 h-32' src={vercel} alt="icon" />
                         <div>
@@ -175,7 +175,7 @@ const SkillsDetails = () => {
 
 
                 <Tilt options={defaultOptions}>
-                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-yellow-600 rounded-lg p-4 '
+                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-blue-600 rounded-lg p-4 '
                         data-aos="fade-right" data-aos-duration="3000" >
                         <img className='w-32 h-32 rounded-full' src={netlify} alt="icon" />
                         <div>
@@ -187,7 +187,7 @@ const SkillsDetails = () => {
 
 
                 <Tilt options={defaultOptions}>
-                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-yellow-600 rounded-lg p-4 '
+                    <div className='flex border border-white items-center justify-center  space-x-4 shadow-xl hover:shadow-xl  hover:shadow-blue-600 rounded-lg p-4 '
                         data-aos="fade-left" data-aos-duration="3000" >
                         <img className='w-32 h-32 rounded-full' src={github} alt="icon" />
                         <div>

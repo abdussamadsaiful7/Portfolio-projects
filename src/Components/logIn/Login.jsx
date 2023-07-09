@@ -28,9 +28,9 @@ const Login = () => {
     }
 
     return (
-        <div className='md:px-40 py-20 bg-cyan-800 '>
+        <div className='md:px-40 py-20'>
             <div className='md:flex items-center justify-center gap-4'>
-                <div className=' bg-white rounded shadow-md hover:shadow-xl hover:shadow-yellow-600'>
+                <div className=' bg-white rounded shadow-md hover:shadow-xl hover:shadow-blue-600'>
                     <form onSubmit={handleSubmit(onSubmit)} className="card-body">
                         <h1 className="text-2xl text-center font-bold">Login please!</h1>
 
@@ -48,7 +48,7 @@ const Login = () => {
                             <input type="password" placeholder="password"  {...register("password", { required: true })} className="input input-bordered" />
                         </div>
                         <div className="form-control mt-6">
-                            <input className="btn bg-cyan-800 text-white" type="submit" value="Login" />
+                            <input className="btn bg-blue-700 text-white hover:text-blue-800" type="submit" value="Login" />
                         </div>
                     </form>
                     <p className='pl-4 pb-4'>Don't have an account ?

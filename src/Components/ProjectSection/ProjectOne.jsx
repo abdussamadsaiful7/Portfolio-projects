@@ -11,12 +11,13 @@ import pic5 from '../../assets/skill_icon/project1/res5.png'
 import pic6 from '../../assets/skill_icon/project1/res6.png'
 import chef from '../../assets/skill_icon/chef1.png'
 import { Link } from 'react-router-dom';
+import { FaArrowRight } from 'react-icons/fa';
 
 const ProjectOne = () => {
     return (
         <div className='pb-5'>
             <div className='relative'>
-                <div className=' border border-white shadow-md hover:shadow-xl hover:shadow-yellow-600  md:mx-36 my-20' data-aos="fade-right" data-aos-duration="3000">
+                <div className=' border border-white shadow-md hover:shadow-xl hover:shadow-blue-600  md:mx-36 my-20' data-aos="fade-right" data-aos-duration="3000">
                     <h1 className='text-center  text-lg font-semibold my-4'>Project Name:
                         <span className='text-slate-500'> Green Leaf Restaurant</span></h1>
                     <div className=' md:flex items-center justify-between'>
@@ -59,22 +60,22 @@ const ProjectOne = () => {
                         <div className='md:w-1/2 p-6'>
                             <h1 className='font-extrabold text-xl'>Project summary.</h1>
                             <div className='font-serif text-slate-500 '>
-                                <p> ✔️ Install React router, firebase, reactPrint, toast, tailwind, daisyUI etc.</p>
-                                <p> ✔️ Create a server and deploy vercel with connect this clint site.</p>
-                                <p> ✔️ create many components as like Home, Header, Login, Register, PrivateRout etc.</p>
-                                <p> ✔️ Use the Environment variable to hide the Firebase config keys.</p>
-                                <p> ✔️ Create a 404 page. Add a picture on the 404 page.</p>
-                                <p> ✔️ Create a Blog page.</p>
+                                <p> ✓ Install React router, firebase, reactPrint, toast, tailwind, daisyUI etc.</p>
+                                <p> ✓ Create a server and deploy vercel with connect this clint site.</p>
+                                <p> ✓ create many components as like Home, Header, Login, Register, PrivateRout etc.</p>
+                                <p> ✓ Use the Environment variable to hide the Firebase config keys.</p>
+                                <p> ✓ Create a 404 page. Add a picture on the 404 page.</p>
+                                <p> ✓ Create a Blog page.</p>
                             </div>
                         </div>
                     </div>
                     <div className='flex items-center justify-end space-x-4 p-6'>
-                        <Link to='https://github.com/abdussamadsaiful7/GreenLeaf-food-client' target="_blank"><button className='btn btn-sm btn-outline border-cyan-800 text-cyan-800 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-cyan-800'>github</button></Link>
+                        <Link to='https://github.com/abdussamadsaiful7/GreenLeaf-food-client' target="_blank"><button className='btn btn-sm btn-outline border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600'>github</button></Link>
 
-                        <Link to='https://github.com/abdussamadsaiful7/GreenLeaf-food-server' target="_blank"><button className='btn btn-sm btn-outline border-cyan-800 text-cyan-800 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-cyan-800'> Server</button></Link>
+                        <Link to='https://github.com/abdussamadsaiful7/GreenLeaf-food-server' target="_blank"><button className='btn btn-sm btn-outline border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600'> Server</button></Link>
 
                         <Link to='https://assignment-app-23184.web.app/' target="_blank">
-                            <button className='btn btn-sm btn-outline border-cyan-800 text-cyan-800 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-cyan-800'>Live</button></Link>
+                            <button className='btn btn-sm btn-outline border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600'>Live</button></Link>
                     </div>
                 </div>
                 <div className=''>

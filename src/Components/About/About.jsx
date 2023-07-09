@@ -10,7 +10,7 @@ const About = () => {
     return (
         <div className='px-4 md:px-32 py-20 dark:bg-black dark:text-white'>
             <h1 className='text-center text-2xl font-bold'>ABOUT ME</h1>
-            <div className='md:flex items-center justify-between mt-4  shadow-md hover:shadow-xl p-8 hover:border hover:border-yellow-400'>
+            <div className='md:flex items-center justify-between mt-4  shadow-md hover:shadow-xl p-8 hover:border hover:border-blue-600'>
                 <img src={samad} className='w-64 h-64 mr-20' data-aos="fade-right"
                     data-aos-duration="3000" alt="pic" />
                 <div data-aos="fade-left" data-aos-duration="3000">
@@ -22,7 +22,7 @@ const About = () => {
             </div>
             <div className='my-10'>
                 <h1 className='text-center text-xl font-semibold'>Educational Qualifications_</h1>
-                <div className='md:flex items-center justify-between mt-4 shadow-md hover:shadow-xl p-8 hover:border hover:border-yellow-400' data-aos="fade-up"
+                <div className='md:flex items-center justify-between mt-4 shadow-md hover:shadow-xl p-8 hover:border hover:border-blue-600' data-aos="fade-up"
                     data-aos-duration="3000">
                     <div>
                         <div className='mb-4'>
@@ -43,7 +43,7 @@ const About = () => {
             </div>
             <div>
                 <h1 className='text-center text-xl font-semibold'>Professional Web development Course </h1>
-                <div className='md:flex items-center justify-between shadow-md hover:shadow-xl p-8 hover:border hover:border-yellow-400 mt-4 md:px-20' data-aos="fade-up" data-aos-duration="3000">
+                <div className='md:flex items-center justify-between shadow-md hover:shadow-xl p-8 hover:border hover:border-blue-600 mt-4 md:px-20' data-aos="fade-up" data-aos-duration="3000">
                     <img className='w-32 h-32' src={hero} alt="icon" />
                     <div>
                         <p className='text-lg font-semibold'>Course: Programming Hero (online)</p>
@@ -55,7 +55,7 @@ const About = () => {
             </div>
             <div className='pt-10'>
                 <h1 className='text-center text-xl font-semibold'>Professional Back Office service Course </h1>
-                <div className='md:flex items-center justify-between shadow-md hover:shadow-xl p-8 hover:border hover:border-yellow-400 mt-4 md:px-20' data-aos="fade-up" data-aos-duration="3000">
+                <div className='md:flex items-center justify-between shadow-md hover:shadow-xl p-8 hover:border hover:border-blue-600 mt-4 md:px-20' data-aos="fade-up" data-aos-duration="3000">
                     <img className='w-32 h-32 rounded-md' src={fifo} alt="icon" />
                     <div className='md:ml-14'>
                         <p className='text-lg font-semibold'>Course: Professional Back Office Service</p>
@@ -69,7 +69,7 @@ const About = () => {
 
             {/* <div className='pt-10'>
                 <h1 className='text-center text-xl font-semibold'>English Spoken Course </h1>
-                <div className='md:flex items-center justify-between shadow-md hover:shadow-xl p-8 hover:border hover:border-yellow-400 mt-4 md:px-20' data-aos="fade-up" data-aos-duration="3000">
+                <div className='md:flex items-center justify-between shadow-md hover:shadow-xl p-8 hover:border hover:border-blue-600 mt-4 md:px-20' data-aos="fade-up" data-aos-duration="3000">
                     <img className='w-32 h-32 rounded-md' src={wsda} alt="icon" />
                     <div className='md:ml-14'>
                         <p className='text-lg font-semibold'>Course: English Spoken Course

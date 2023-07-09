@@ -89,14 +89,14 @@ const Header = () => {
 
                 <div>
                     <nav className="flex items-end space-x-4">
-                        <Link to='/' className="hidden md:inline-block text-gray-500 hover:text-white hover:bg-cyan-800 p-3">Home</Link>
-                        <Link to='/about' className="hidden md:inline-block text-gray-500 hover:text-white hover:bg-cyan-800 p-3">About</Link>
-                        <Link to='/contact' className="hidden md:inline-block text-gray-500 hover:text-white hover:bg-cyan-800 p-3">Contact</Link>
+                        <Link to='/' className="hidden md:inline-block text-gray-500 hover:text-white hover:bg-blue-600 p-3">Home</Link>
+                        <Link to='/about' className="hidden md:inline-block text-gray-500 hover:text-white hover:bg-blue-600 p-3">About</Link>
+                        <Link to='/contact' className="hidden md:inline-block text-gray-500 hover:text-white hover:bg-blue-600 p-3">Contact</Link>
 
                         {
                             user ?
                                 <>
-                                    <a className="hidden md:inline-block text-gray-500 hover:text-white hover:bg-cyan-800 p-3"><Link onClick={handleLogout}>Logout</Link></a>
+                                    <a className="hidden md:inline-block text-gray-500 hover:text-white hover:bg-blue-600 p-3"><Link onClick={handleLogout}>Logout</Link></a>
                                     <div className="avatar tooltip tooltip-bottom" data-tip={user?.displayName}>
                                         <div className="w-8 ml-4  rounded-full 
                                          ring ring-primary ring-offset-base-100 ring-offset-2">
@@ -105,7 +105,7 @@ const Header = () => {
                                     </div>
                                 </>
                                 :
-                                <a className="hidden md:inline-block text-gray-500 hover:text-white hover:bg-cyan-800 p-3"> <Link to='/login'>Login</Link></a>
+                                <a className="hidden md:inline-block text-gray-500 hover:text-white hover:bg-blue-600 p-3"> <Link to='/login'>Login</Link></a>
                         }
                         <div className='md:ml-4  md:block'>
                             <button onClick={handleTheme}

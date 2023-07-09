@@ -33,9 +33,9 @@ const SignUp = () => {
     }
 
     return (
-        <div className='md:flex items-center justify-around md:px-32 bg-cyan-800' >
+        <div className='md:flex items-center justify-around md:px-32' >
             <div>
-                <div className=' w-full mr-10 my-8 shadow-md rounded hover:shadow-xl hover:shadow-yellow-600 p-10 bg-white'>
+                <div className=' w-full mr-10 my-8 shadow-md rounded hover:shadow-xl hover:shadow-blue-600 p-10 bg-white'>
                     <h1 className='text-center text-2xl font-bold'>Please Registration!</h1>
                     <form onSubmit={handleSignUp}>
                         <div>
@@ -60,7 +60,7 @@ const SignUp = () => {
                         </div>
                         <div className='pt-4'>
                             <input type="submit" value="Sign Up" className=' btn btn-block 
-                            bg-cyan-800 text-white btn-outline'/>
+                            bg-blue-700 text-white  btn-outline'/>
                         </div>
                     </form>
                     <p className='text-center my-4'>Already have an account? <Link to='/login' className='text-red-500 
