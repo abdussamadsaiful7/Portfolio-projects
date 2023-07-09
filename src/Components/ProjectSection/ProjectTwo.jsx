@@ -63,23 +63,25 @@ const ProjectTwo = () => {
                             </div>
                         </div>
                         <div className='md:w-1/2 p-6'>
-                            <h1 className='font-extrabold'>Project summary.</h1>
-                            <p> ✔️ Create Unique Navbar etc.</p>
-                            <p> ✔️ Create a server and deploy vercel with connect this clint site.</p>
-                            <p> ✔️ create many components as like Home, Header, Login, Register, PrivateRout etc.</p>
-                            <p> ✔️ Use the Environment variable to hide the Firebase config keys.</p>
-                            <p> ✔️ Create a 404 page. Add a picture on the 404 page.</p>
-                            <p> ✔️ Add A Toy page with private route.</p>
-                            <p> ✔️ Create a Blog page.</p>
+                            <h1 className='font-extrabold text-xl'>Project summary.</h1>
+                            <div className='font-serif text-slate-500'>
+                                <p> ✔️ Create Unique Navbar etc.</p>
+                                <p> ✔️ Create a server and deploy vercel with connect this clint site.</p>
+                                <p> ✔️ create many components as like Home, Header, Login, Register, PrivateRout etc.</p>
+                                <p> ✔️ Use the Environment variable to hide the Firebase config keys.</p>
+                                <p> ✔️ Create a 404 page. Add a picture on the 404 page.</p>
+                                <p> ✔️ Add A Toy page with private route.</p>
+                                <p> ✔️ Create a Blog page.</p>
+                            </div>
                         </div>
                     </div>
                     <div className='flex items-center justify-end space-x-4 p-6'>
-                        <Link to='https://github.com/abdussamadsaiful7/PJ-Marks-toy-Gallery-Client' target="_blank"><button className='btn btn-xs btn-outline btn-warning'>github</button></Link>
+                        <Link to='https://github.com/abdussamadsaiful7/PJ-Marks-toy-Gallery-Client' target="_blank"><button className='btn btn-sm btn-outline border-cyan-800 text-cyan-800 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-cyan-800'>github</button></Link>
 
-                        <Link to='https://github.com/abdussamadsaiful7/PJ-Marks-toy-Gallery-server' target="_blank"><button className='btn btn-xs btn-outline btn-warning'> Server</button></Link>
+                        <Link to='https://github.com/abdussamadsaiful7/PJ-Marks-toy-Gallery-server' target="_blank"><button className='btn btn-sm btn-outline border-cyan-800 text-cyan-800 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-cyan-800'> Server</button></Link>
 
                         <Link to='https://assignment-11-firebase-caf82.web.app/' target="_blank">
-                            <button className='btn btn-xs btn-outline btn-warning'>Live</button></Link>
+                            <button className='btn btn-sm btn-outline border-cyan-800 text-cyan-800 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-cyan-800'>Live</button></Link>
                     </div>
                 </div>
                 <div className=''>

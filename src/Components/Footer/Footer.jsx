@@ -1,12 +1,12 @@
 import React from 'react';
-import icon from '../../assets/icon.jpg'
+import icon from '../../assets/logo.png'
 
 const Footer = () => {
     return (
         <div>
             <footer className="footer items-center p-4 bg-neutral text-neutral-content">
                 <div className="items-center grid-flow-col">
-                    <img src={icon} alt="Logo" className="w-20 h-20 mr-4" />
+                    <img src={icon} alt="Logo" className="w-36 h-20 mr-4 text-white" />
                     <p>Copyright © 2023 - All right reserved</p>
                 </div>
                 <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">

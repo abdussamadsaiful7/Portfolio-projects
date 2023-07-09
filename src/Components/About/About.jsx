@@ -58,8 +58,7 @@ const About = () => {
                 <div className='md:flex items-center justify-between shadow-md hover:shadow-xl p-8 hover:border hover:border-yellow-400 mt-4 md:px-20' data-aos="fade-up" data-aos-duration="3000">
                     <img className='w-32 h-32 rounded-md' src={fifo} alt="icon" />
                     <div className='md:ml-14'>
-                        <p className='text-lg font-semibold'>Course: Professional Back Office Service
-                            (<Link className='pointer ml-2 text-blue-600' to='https://drive.google.com/file/d/1-5IizQ5fceT9UpXwKhNgmowrl2mzjLBJ/view?usp=drive_link'>Certificate</Link>)</p>
+                        <p className='text-lg font-semibold'>Course: Professional Back Office Service</p>
                         <p>I have completed a course on office management from Fifo tech. Fifo tech is a subsidiary of BACCO under Project SEIP of Bangladesh Government.
                         </p>
                         <p>Fifo tech, Vision tower, Kawran Bazar, Dhaka,</p>
@@ -68,7 +67,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='pt-10'>
+            {/* <div className='pt-10'>
                 <h1 className='text-center text-xl font-semibold'>English Spoken Course </h1>
                 <div className='md:flex items-center justify-between shadow-md hover:shadow-xl p-8 hover:border hover:border-yellow-400 mt-4 md:px-20' data-aos="fade-up" data-aos-duration="3000">
                     <img className='w-32 h-32 rounded-md' src={wsda} alt="icon" />
@@ -80,7 +79,7 @@ const About = () => {
                         <p>Bangladesh</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

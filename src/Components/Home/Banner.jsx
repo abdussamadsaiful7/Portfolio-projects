@@ -34,18 +34,18 @@ const Banner = () => {
 
                     <div className='md:w-1/2 md:ml-10 p-4'>
                         <div>
-                            <h1 className='text-2xl  font-extrabold'>𝘼𝘽𝘿𝙐𝙎 𝙎𝘼𝙈𝘼𝘿 𝙎𝘼𝙄𝙁𝙐𝙇</h1>
+                            <h1 className='text-2xl  font-extrabold text-cyan-800'>𝘼𝘽𝘿𝙐𝙎 𝙎𝘼𝙈𝘼𝘿 𝙎𝘼𝙄𝙁𝙐𝙇</h1>
                             {/* <p className='text-lg  font-semibold'>Web developer</p> */}
 
                             <h1 className='text-2xl font-extrabold' style={{ fontWeight: 'normal' }}>
-                                I'm a &lt;{' '}
-                                <span style={{ color: 'green', fontWeight: 'bold' }}>
+                               {' '}
+                                <span style={{ color: '', fontWeight: 'bold' }}>
                                     {/* Style will be inherited from the parent element */}
                                     <Typewriter
                                         words={['Web developer', 'Front-end Developer', 'React developer', 'MERN full stack developer']}
                                         loop={true}
                                         cursor
-                                        cursorStyle='>'
+                                        cursorStyle='|'
                                         typeSpeed={70}
                                         deleteSpeed={50}
                                         delaySpeed={1000}
@@ -62,32 +62,35 @@ const Banner = () => {
                         </div>
                         <div className='flex items-center space-x-4 pt-4'>
                             <Link to='https://www.facebook.com/profile.php?id=100072454039583' target="_blank">
-                                <button className="btn btn-circle btn-primary btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
-                                    <span className='text-2xl'><FaFacebookF /></span>
+                                <button className="btn btn-circle border-cyan-800  btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
+                                    <span className='text-2xl text-cyan-800'><FaFacebookF /></span>
                                 </button>
                             </Link>
                             <Link>
-                                <button className="btn btn-circle btn-accent btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
-                                    <span className='text-2xl'> <FaTwitter /></span>
+                                <button className="btn btn-circle border-cyan-800 btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
+                                    <span className='text-2xl text-cyan-800 '> <FaTwitter /></span>
                                 </button>
                             </Link>
                             <Link to='https://www.linkedin.com/in/a-samad-saiful-781611278/' target="_blank">
-                                <button className="btn btn-circle btn-primary btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
-                                    <span className='text-2xl'> <FaLinkedin /></span>
+                                <button className="btn btn-circle border-cyan-800 btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
+                                    <span className='text-2xl text-cyan-800'> <FaLinkedin /></span>
                                 </button>
                             </Link>
 
                             <Link to='https://github.com/abdussamadsaiful7' target="_blank">
-                                <button className="btn btn-circle btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
-                                    <span className='text-2xl'> <FaGithub /></span>
+                                <button className="btn btn-circle border-cyan-800 btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
+                                    <span className='text-2xl text-cyan-800'> <FaGithub /></span>
                                 </button>
                             </Link>
                         </div>
-                        <div className='ml-6 pt-2'>
+                        <div className='ml-1 pt-4'>
                             <Link>
-                                <button onClick={() => downloadFile(pdf_file_url)} className='btn btn-warning btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 btn-sm'>Download CV
+                                <button onClick={() => downloadFile(pdf_file_url)} className='btn border-cyan-800 hover:bg-cyan-800  text-cyan-800 btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 mr-4 '>Download CV
                                     <FaArrowDown />
                                 </button>
+                            </Link>
+                            <Link>
+                                <button className='btn btn-outline border-cyan-800 text-cyan-800 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-cyan-800  duration-300'>Hire Me</button>
                             </Link>
                         </div>
                     </div>

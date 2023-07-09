@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import icon from '../../assets/icon.jpg'
+import icon from '../../assets/logo.png'
 import Typewriter from 'typewriter-effect';
 import { AuthContext } from '../Provider/AuthProvider';
 import { FaCloudSun, FaMoon, FaRegMoon } from 'react-icons/fa';
@@ -72,12 +72,12 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="flex items-center">
-                    <img src={icon} alt="Logo" className="w-12 h-12 mr-4" />
+                    <img src={icon} alt="Logo" className="w-24 h-12 mr-4" />
                     <br />
                     <div>
                         <Typewriter
                             options={{
-                                strings: ["Saiful's portfolio"],
+                                strings: ["🆂🅰🅼🅰🅳 🆂🅰🅸🅵🆄🅻"],
                                 autoStart: true,
                                 loop: true,
                             }}
