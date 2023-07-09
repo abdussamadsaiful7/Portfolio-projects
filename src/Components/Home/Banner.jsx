@@ -89,7 +89,7 @@ const Banner = () => {
                                     <FaArrowDown />
                                 </button>
                             </Link>
-                            <Link>
+                            <Link to='/contact'>
                                 <button className='btn btn-outline border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600  duration-300'>Hire Me</button>
                             </Link>
                         </div>
