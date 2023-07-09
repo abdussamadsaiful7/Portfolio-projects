@@ -24,7 +24,7 @@ const Career = () => {
                         <div className='flex'>
                             <img className='w-20 h-20 mr-2' src={cp} alt="icon" />
                             <div className='flex items-center'>
-                                <p className='text-3xl font-extrabold mr-1'>15+</p>
+                                <p className='text-3xl font-extrabold mr-1'>20+</p>
                             </div>
                         </div>
                         <p>Completed Projects</p>
