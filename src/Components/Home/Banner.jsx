@@ -85,12 +85,12 @@ const Banner = () => {
                         </div>
                         <div className='ml-1 pt-4'>
                             <Link>
-                                <button onClick={() => downloadFile(pdf_file_url)} className='btn border-blue-600 hover:bg-blue-600  text-blue-600 btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 mr-4 '>Download CV
+                                <button onClick={() => downloadFile(pdf_file_url)} className='btn rounded-none border-blue-600 hover:bg-blue-600  text-blue-600 btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 mr-4 '>Download CV
                                     <FaArrowDown />
                                 </button>
                             </Link>
                             <Link to='/contact'>
-                                <button className='btn btn-outline border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600  duration-300'>Hire Me</button>
+                                <button className='btn rounded-none btn-outline border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600  duration-300'>Hire Me</button>
                             </Link>
                         </div>
                     </div>
@@ -102,8 +102,7 @@ const Banner = () => {
                                 <h4 className=' text-white font-bold'>A Samad Saiful <br /> <span>Web Developer</span> </h4>
                                 <Link to='/contact'> <a className='text-white bg-blue-600 hover:shadow-lg hover:shadow-blue-600'>Hire Me</a></Link>
                             </div>
-                        </div>
-                        
+                        </div>                        
                     </div>
                 </div>
             </Slide>

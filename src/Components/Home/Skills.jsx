@@ -54,7 +54,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className='text-center mt-6'>
-                    <Link to='/skillsDetails'><button className="btn btn-sm btn-outline border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600">Details</button></Link>
+                    <Link to='/skillsDetails'><button className="btn rounded-none btn-sm btn-outline border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600">Details</button></Link>
                 </div>
             </div>
         </div>

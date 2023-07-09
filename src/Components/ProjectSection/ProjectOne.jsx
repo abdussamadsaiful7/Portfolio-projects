@@ -58,7 +58,7 @@ const ProjectOne = () => {
                             </div>
                         </div>
                         <div className='md:w-1/2 p-6'>
-                            <h1 className='font-extrabold text-xl'>Project summary.</h1>
+                            <h1 className='font-extrabold text-xl'>Project Summary.</h1>
                             <div className='font-serif text-slate-500 '>
                                 <p> ✓ Install React router, firebase, reactPrint, toast, tailwind, daisyUI etc.</p>
                                 <p> ✓ Create a server and deploy vercel with connect this clint site.</p>
@@ -70,12 +70,12 @@ const ProjectOne = () => {
                         </div>
                     </div>
                     <div className='flex items-center justify-end space-x-4 p-6'>
-                        <Link to='https://github.com/abdussamadsaiful7/GreenLeaf-food-client' target="_blank"><button className='btn btn-sm btn-outline border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600'>github</button></Link>
+                        <Link to='https://github.com/abdussamadsaiful7/GreenLeaf-food-client' target="_blank"><button className='btn btn-sm btn-outline rounded-none border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600'>github</button></Link>
 
-                        <Link to='https://github.com/abdussamadsaiful7/GreenLeaf-food-server' target="_blank"><button className='btn btn-sm btn-outline border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600'> Server</button></Link>
+                        <Link to='https://github.com/abdussamadsaiful7/GreenLeaf-food-server' target="_blank"><button className='btn btn-sm btn-outline rounded-none border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600'> Server</button></Link>
 
                         <Link to='https://assignment-app-23184.web.app/' target="_blank">
-                            <button className='btn btn-sm btn-outline border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600'>Live</button></Link>
+                            <button className='btn btn-sm btn-outline rounded-none border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600'>Live</button></Link>
                     </div>
                 </div>
                 <div className=''>
