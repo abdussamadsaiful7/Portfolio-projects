@@ -96,8 +96,8 @@ const Banner = () => {
                     </div>
 
                     <div>
-                        <div className='box shadow-lg hover:shadow-lg hover:shadow-blue-600'>
-                            <div className='bg-pic bg-black border-none'>
+                        <div className='  hidden md:block box shadow-lg hover:shadow-lg hover:shadow-blue-600'>
+                            <div className='  bg-pic bg-black border-none'>
                                 <img src={samad} alt="" />
                                 <h4 className=' text-white font-bold'>A Samad Saiful <br /> <span>Web Developer</span> </h4>
                                 <Link to='/contact'> <a className='text-white bg-blue-600 hover:shadow-lg hover:shadow-blue-600'>Hire Me</a></Link>
