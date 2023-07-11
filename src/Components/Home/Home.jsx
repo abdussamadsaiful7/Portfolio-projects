@@ -7,7 +7,8 @@ import ProjectTwo from '../ProjectSection/ProjectTwo';
 import ProjectThree from '../ProjectSection/ProjectThree';
 import Career from '../Career/Career';
 import Features from '../Featuses/Features';
-import Clock from '../Clock/Clock';
+import Lottie from "lottie-react";
+import lottieLogo from "../../assets/Project.json";
 
 
 
@@ -21,8 +22,11 @@ const Home = () => {
             <Career></Career>
             <Skills></Skills>
             <BannerCard></BannerCard>
-            <div className='pt-10'>
-                <div className='text-center'>
+            <div className='pt-8'>
+                <div>
+                    <Lottie className='' animationData={lottieLogo} loop={true} />
+                </div>
+                <div className='text-center pt-2'>
                     <h1 className='text-center text-2xl font-bold'>My Projects_</h1>
                 </div>
                 <ProjectOne></ProjectOne>
