@@ -28,7 +28,7 @@ const Banner = () => {
 
 
     return (
-        <div className=' relative'>
+        <div className=' relative bannerPic'>
             <Slide cascade>
                 <div className='md:flex items-center justify-between space-x-5 pt-14 md:px-24'>
 
@@ -53,10 +53,10 @@ const Banner = () => {
                                 </span>
                             </h1>
 
-                            <p className='text-gray-500 text-lg font-serif'>
+                            <p className=' text-lg font-serif text-white'>
                                 I have been working one year in React.js developing as MERN full stack developer and believe that I possess all the necessary technical skills to join the team and contribute significantly  of a web Developer. I have received recognition throughout my career as a professional who is focused and skilled at creating innovative applications with modern technologies.</p>
                         </div>
-                        <div className='mt-4'>
+                        <div className='mt-4 text-white font-serif'>
                             <p>What's App & cell +8801932180980</p>
                             <p>Email: samadsaifullah11@gmail.com</p>
                         </div>

@@ -5,10 +5,11 @@
 
 
 .bannerPic{
-    background-image: url("./assets/skill_icon/banner1.avif");
+    background-image: url("./assets/skill_icon/bg.png");
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position:100%vh;
   
     
 }
