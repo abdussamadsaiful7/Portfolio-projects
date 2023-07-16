@@ -17,7 +17,7 @@ const ProjectOne = () => {
     return (
         <div className='pb-5'>
             <div className='relative'>
-                <div className=' border border-white shadow-md hover:shadow-xl hover:shadow-blue-600  md:mx-36 my-20' data-aos="fade-right" data-aos-duration="3000">
+                <div className=' border border-white shadow-md hover:shadow-xl hover:shadow-cyan-400  md:mx-36 my-20' data-aos="fade-right" data-aos-duration="3000">
                     <h1 className='text-center  text-lg font-semibold my-4'>Project Name:
                         <span className='text-slate-500'> Green Leaf Restaurant</span></h1>
                     <div className=' md:flex items-center justify-between'>
@@ -70,12 +70,12 @@ const ProjectOne = () => {
                         </div>
                     </div>
                     <div className='flex items-center justify-end space-x-4 p-6'>
-                        <Link to='https://github.com/abdussamadsaiful7/GreenLeaf-food-client' target="_blank"><button className='btn btn-sm btn-outline rounded-none border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600'>github</button></Link>
+                        <Link to='https://github.com/abdussamadsaiful7/GreenLeaf-food-client' target="_blank"><button className='btn btn-sm btn-outline rounded-none border-cyan-400 text-cyan-400 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-cyan-400'>github</button></Link>
 
-                        <Link to='https://github.com/abdussamadsaiful7/GreenLeaf-food-server' target="_blank"><button className='btn btn-sm btn-outline rounded-none border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600'> Server</button></Link>
+                        <Link to='https://github.com/abdussamadsaiful7/GreenLeaf-food-server' target="_blank"><button className='btn btn-sm btn-outline rounded-none border-cyan-400 text-cyan-400 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-cyan-400'> Server</button></Link>
 
                         <Link to='https://assignment-app-23184.web.app/' target="_blank">
-                            <button className='btn btn-sm btn-outline rounded-none border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600'>Live</button></Link>
+                            <button className='btn btn-sm btn-outline rounded-none border-cyan-400 text-cyan-400 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-cyan-400'>Live</button></Link>
                     </div>
                 </div>
                 <div className=''>

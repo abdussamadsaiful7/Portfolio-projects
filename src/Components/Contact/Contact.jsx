@@ -49,11 +49,11 @@ const Contact = () => {
                         </div>
                         <br />
                         <div className='text-center'>
-                            <input className='btn btn-wide text-white bg-blue-800 btn-outline' type="submit" value="Send" />
+                            <input className='btn btn-wide text-white bg-cyan-400 btn-outline' type="submit" value="Send" />
                         </div>
                     </form>
                 </div>
-                <div className='bg-blue-800 md:p-10 p-2 md:w-1/2 text-white' data-aos="fade-left"
+                <div className='bg-cyan-400 md:p-10 p-2 md:w-1/2 text-white' data-aos="fade-left"
                         data-aos-duration="3000">
                     <h1 className='my-4 text-center font-semibold text-xl'>Contact me</h1>
                     <div>

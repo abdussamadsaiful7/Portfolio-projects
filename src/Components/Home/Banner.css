@@ -17,7 +17,7 @@
    
 }
 .box:hover::before{
-    inset: -50px 0px;
+    inset: -50px 0px; 
 
 }
 

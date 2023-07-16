@@ -10,7 +10,7 @@ const About = () => {
     return (
         <div className='px-4 md:px-32 py-20 dark:bg-black dark:text-white'>
             <h1 className='text-center text-2xl font-bold'>ABOUT ME</h1>
-            <div className='md:flex items-center justify-between mt-4  shadow-md hover:shadow-xl p-8 hover:border hover:border-blue-600'>
+            <div className='md:flex items-center justify-between mt-4  shadow-md hover:shadow-xl p-8 hover:border hover:border-cyan-400'>
                 <img src={samad} className='w-64 h-64 mr-20' data-aos="fade-right"
                     data-aos-duration="3000" alt="pic" />
                 <div data-aos="fade-left" data-aos-duration="3000">
@@ -20,9 +20,11 @@ const About = () => {
                     <p>I had a keep interest in software engineering since childhood, but due to various adversities, I could not pursue a university degree in the subject. Today I am glad that I am a web developer. I believe that if I acquire the right skills, certification will not stand in my way. Anyway give me a chance to publish my success.</p>
                 </div>
             </div>
+
+          
             <div className='my-10'>
                 <h1 className='text-center text-xl font-semibold'>Educational Qualifications_</h1>
-                <div className='md:flex items-center justify-between mt-4 shadow-md hover:shadow-xl p-8 hover:border hover:border-blue-600' data-aos="fade-up"
+                <div className='md:flex items-center justify-between mt-4 shadow-md hover:shadow-xl p-8 hover:border hover:border-cyan-400' data-aos="fade-up"
                     data-aos-duration="3000">
                     <div>
                         <div className='mb-4'>
@@ -43,7 +45,7 @@ const About = () => {
             </div>
             <div>
                 <h1 className='text-center text-xl font-semibold'>Professional Web development Course </h1>
-                <div className='md:flex items-center justify-between shadow-md hover:shadow-xl p-8 hover:border hover:border-blue-600 mt-4 md:px-20' data-aos="fade-up" data-aos-duration="3000">
+                <div className='md:flex items-center justify-between shadow-md hover:shadow-xl p-8 hover:border hover:border-cyan-400 mt-4 md:px-20' data-aos="fade-up" data-aos-duration="3000">
                     <img className='w-32 h-32' src={hero} alt="icon" />
                     <div>
                         <p className='text-lg font-semibold'>Course: Programming Hero (online)</p>
@@ -55,7 +57,7 @@ const About = () => {
             </div>
             <div className='pt-10'>
                 <h1 className='text-center text-xl font-semibold'>Professional Back Office service Course </h1>
-                <div className='md:flex items-center justify-between shadow-md hover:shadow-xl p-8 hover:border hover:border-blue-600 mt-4 md:px-20' data-aos="fade-up" data-aos-duration="3000">
+                <div className='md:flex items-center justify-between shadow-md hover:shadow-xl p-8 hover:border hover:border-cyan-400 mt-4 md:px-20' data-aos="fade-up" data-aos-duration="3000">
                     <img className='w-32 h-32 rounded-md' src={fifo} alt="icon" />
                     <div className='md:ml-14'>
                         <p className='text-lg font-semibold'>Course: Professional Back Office Service</p>
@@ -69,11 +71,11 @@ const About = () => {
 
             {/* <div className='pt-10'>
                 <h1 className='text-center text-xl font-semibold'>English Spoken Course </h1>
-                <div className='md:flex items-center justify-between shadow-md hover:shadow-xl p-8 hover:border hover:border-blue-600 mt-4 md:px-20' data-aos="fade-up" data-aos-duration="3000">
+                <div className='md:flex items-center justify-between shadow-md hover:shadow-xl p-8 hover:border hover:border-cyan-400 mt-4 md:px-20' data-aos="fade-up" data-aos-duration="3000">
                     <img className='w-32 h-32 rounded-md' src={wsda} alt="icon" />
                     <div className='md:ml-14'>
                         <p className='text-lg font-semibold'>Course: English Spoken Course
-                            (<Link className='pointer ml-2 text-blue-600' to=''>Certificate</Link>)</p>
+                            (<Link className='pointer ml-2 text-border-cyan-400' to=''>Certificate</Link>)</p>
                         <p>I have completed a course on English Spoken from Fifo tech Under WSDA from New Zeland. Fifo tech is a subsidiary of BACCO under Project SEIP of Bangladesh Government.</p>
                         <p> Fifo tech, Vision tower, Kawran Bazar, Dhaka,</p>
                         <p>Bangladesh</p>

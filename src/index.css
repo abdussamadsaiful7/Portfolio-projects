@@ -29,7 +29,7 @@
     padding: 30px;
     width: 2px !important;
     height: 2px !important;
-    color: rgba(0, 0, 255, 0.708) !important;
+    color: cyan !important;
     fill: black !important;
     stroke: black !important;
 }

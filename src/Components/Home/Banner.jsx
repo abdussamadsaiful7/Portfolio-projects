@@ -34,7 +34,7 @@ const Banner = () => {
 
                     <div className='md:w-1/2 md:ml-10 p-4'>
                         <div>
-                            <h1 className='text-2xl  font-extrabold text-blue-600'>𝘼𝘽𝘿𝙐𝙎 𝙎𝘼𝙈𝘼𝘿 𝙎𝘼𝙄𝙁𝙐𝙇</h1>
+                            <h1 className='text-2xl  font-extrabold text-cyan-400'>𝘼𝘽𝘿𝙐𝙎 𝙎𝘼𝙈𝘼𝘿 𝙎𝘼𝙄𝙁𝙐𝙇</h1>
                             {/* <p className='text-lg  font-semibold'>Web developer</p> */}
 
                             <h1 className='text-2xl font-extrabold' style={{ fontWeight: 'normal' }}>
@@ -62,45 +62,45 @@ const Banner = () => {
                         </div>
                         <div className='flex items-center space-x-4 pt-4'>
                             <Link to='https://www.facebook.com/profile.php?id=100072454039583' target="_blank">
-                                <button className="btn btn-circle border-blue-600  btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
-                                    <span className='text-2xl text-blue-600'><FaFacebookF /></span>
+                                <button className="btn btn-circle border-cyan-400  btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
+                                    <span className='text-2xl text-cyan-400'><FaFacebookF /></span>
                                 </button>
                             </Link>
                             <Link>
-                                <button className="btn btn-circle border-blue-600 btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
-                                    <span className='text-2xl text-blue-600 '> <FaTwitter /></span>
+                                <button className="btn btn-circle border-cyan-400 btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
+                                    <span className='text-2xl text-cyan-400 '> <FaTwitter /></span>
                                 </button>
                             </Link>
                             <Link to='https://www.linkedin.com/in/a-samad-saiful-781611278/' target="_blank">
-                                <button className="btn btn-circle border-blue-600 btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
-                                    <span className='text-2xl text-blue-600'> <FaLinkedin /></span>
+                                <button className="btn btn-circle border-cyan-400 btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
+                                    <span className='text-2xl text-cyan-400'> <FaLinkedin /></span>
                                 </button>
                             </Link>
 
                             <Link to='https://github.com/abdussamadsaiful7' target="_blank">
-                                <button className="btn btn-circle border-blue-600 btn-outline transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">
-                                    <span className='text-2xl text-blue-600'> <FaGithub /></span>
+                                <button className="btn btn-circle border-cyan-400 btn-outline transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">
+                                    <span className='text-2xl text-cyan-400'> <FaGithub /></span>
                                 </button>
                             </Link>
                         </div>
                         <div className='ml-1 pt-4'>
                             <Link>
-                                <button onClick={() => downloadFile(pdf_file_url)} className='btn rounded-none border-blue-600 hover:bg-blue-600  text-blue-600 btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 mr-4 '>Download CV
+                                <button onClick={() => downloadFile(pdf_file_url)} className='btn rounded-none border-cyan-400 hover:bg-cyan-400  text-cyan-400 btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 mr-4 '>Download CV
                                     <FaArrowDown />
                                 </button>
                             </Link>
                             <Link to='/contact'>
-                                <button className='btn rounded-none btn-outline border-blue-600 text-blue-600 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-blue-600  duration-300'>Hire Me</button>
+                                <button className='btn rounded-none btn-outline border-cyan-400 text-cyan-400 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-cyan-400  duration-300'>Hire Me</button>
                             </Link>
                         </div>
                     </div>
 
                     <div>
-                        <div className='  hidden md:block box shadow-lg hover:shadow-lg hover:shadow-blue-600'>
+                        <div className='  hidden md:block box shadow-lg hover:shadow-lg hover:shadow-cyan-400'>
                             <div className='  bg-pic bg-black border-none'>
                                 <img src={samad} alt="" />
                                 <h4 className=' text-white font-bold'>A Samad Saiful <br /> <span>Web Developer</span> </h4>
-                                <Link to='/contact'> <a className='text-white bg-blue-600 hover:shadow-lg hover:shadow-blue-600'>Hire Me</a></Link>
+                                <Link to='/contact'> <a className='text-white bg-cyan-400 hover:shadow-lg hover:shadow-cyan-400'>Hire Me</a></Link>
                             </div>
                         </div>                        
                     </div>

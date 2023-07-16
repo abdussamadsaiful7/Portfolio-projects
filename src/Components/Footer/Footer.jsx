@@ -13,24 +13,24 @@ const Footer = () => {
                 </div>
                 <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
                     <Link to='https://www.facebook.com/profile.php?id=100072454039583' target="_blank">
-                        <button className="btn btn-square border-blue-600  btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
-                            <span className='text-2xl text-blue-600'><FaFacebookF /></span>
+                        <button className="btn btn-square border-cyan-400  btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
+                            <span className='text-2xl text-cyan-400'><FaFacebookF /></span>
                         </button>
                     </Link>
                     <Link>
-                        <button className="btn btn-square border-blue-600 btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
-                            <span className='text-2xl text-blue-600 '> <FaTwitter /></span>
+                        <button className="btn btn-square border-cyan-400 btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
+                            <span className='text-2xl text-cyan-400 '> <FaTwitter /></span>
                         </button>
                     </Link>
                     <Link to='https://www.linkedin.com/in/a-samad-saiful-781611278/' target="_blank">
-                        <button className="btn btn-square border-blue-600 btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
-                            <span className='text-2xl text-blue-600'> <FaLinkedin /></span>
+                        <button className="btn btn-square border-cyan-400 btn-outline transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300">
+                            <span className='text-2xl text-cyan-400'> <FaLinkedin /></span>
                         </button>
                     </Link>
 
                     <Link to='https://github.com/abdussamadsaiful7' target="_blank">
-                        <button className="btn btn-square border-blue-600 btn-outline transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">
-                            <span className='text-2xl text-blue-600'> <FaGithub /></span>
+                        <button className="btn btn-square border-cyan-400 btn-outline transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">
+                            <span className='text-2xl text-cyan-400'> <FaGithub /></span>
                         </button>
                     </Link>
                 </div>
