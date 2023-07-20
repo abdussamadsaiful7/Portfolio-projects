@@ -8,7 +8,7 @@ import ProjectThree from '../ProjectSection/ProjectThree';
 import Career from '../Career/Career';
 import Features from '../Featuses/Features';
 import Lottie from "lottie-react";
-import lottieLogo from "../../assets/Project.json";
+import lottieLogo from "../../assets/proj.json";
 
 
 
